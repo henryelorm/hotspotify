@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="358.0" prefWidth="269.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="hotspotify.controller.InterfaceController">
+   <children>
+      <Button fx:id="startButton" layoutX="33.0" layoutY="300.0" mnemonicParsing="false" onAction="#startButtonInit" prefHeight="31.0" prefWidth="64.0" style="-fx-background-radius: 12;" text="Start">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="stopButton" layoutX="180.0" layoutY="300.0" mnemonicParsing="false" onAction="#stopButtonInit" prefHeight="31.0" prefWidth="64.0" style="-fx-background-radius: 12;" text="Stop">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="186.0" fitWidth="167.0" layoutX="45.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/hotspot.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
